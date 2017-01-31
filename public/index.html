@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Простой чат: nodejs + socket.io</title>
+</head>
+<body>
+<div class="demo">
+    <h1>Простой чат</h1>
+    <div class="chat">
+        <div class="messages" id="messages"></div>
+        <div class="panel">
+            <span class="nick"></span> <input type="text" name="message_text" id="message_text">
+            <button type="button" id="message_btn">Отправить</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/main.js"></script>
+
+</body>
+</html>
